@@ -53,7 +53,7 @@ void RegistrarBanda()//registrar uma banda ao dicionario
 {
     Console.Clear();//limpa o console
     ExibirTituloPagina("Bem-vindo ao registro de bandas!");
-    Console.Write("Digite o nome da banda que deseja Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();//Dictadicionar: ");
+    Console.Write("Digite o nome da banda que deseja adicionar: ");
     string nomeDaBanda = Console.ReadLine()!;
     bandasRegistradas.Add(nomeDaBanda, new List<int>());//adiciona a banda ao dicionário com uma lista vazia de avaliações
     Console.WriteLine($"A banda {nomeDaBanda} adicionada com sucesso!");//$ serve pra escrever a string no meio da mensagem (interpolação de string)
